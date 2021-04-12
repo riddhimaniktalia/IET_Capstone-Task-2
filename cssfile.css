@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+body{
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.container{
+  margin-top: 60px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.75);
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+h1{
+  margin: 15px;
+}
+
+.addelement{
+  margin: 12px 0;
+}
+
+input{
+  padding: 6px 4px;
+  width: 80%;
+}
+
+button{
+  padding: 8px 16px;
+  background-color: #20B2AA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+.taskslist{
+  height: 550px;
+  overflow-y: auto;
+}
+
+ul{
+  padding: 12px;
+}
+
+li{
+  list-style: none;
+  padding: 12px 6px;
+  background-color: white;
+  margin: 14px 0px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.75);
+  border-radius: 2px;
+  transition: .5s;
+}
+
+li:hover{
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.checked{
+  text-decoration: line-through;
+  background-color: #c2dcbe;
+}
